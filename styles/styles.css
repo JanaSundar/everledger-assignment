@@ -1,0 +1,20 @@
+:root {
+  --primary: #1f1235;
+  --button: #f5d09d;
+}
+
+html,
+body {
+  width: 100vw !important;
+  height: 100vh !important;
+  background: url('/bg.png') !important;
+  background-position: left center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+
+.content {
+  backdrop-filter: blur(50px) opacity(0.2) !important;
+  background: rgba(31, 18, 53, 0.4) !important;
+  text-align: center !important;
+}
